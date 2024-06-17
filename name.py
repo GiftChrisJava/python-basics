@@ -30,28 +30,48 @@ print(some_value)
 
 
 # strings
-firstname = "Gift Chris"
-lastname = "Zulu"
+# firstname = "Gift Chris"
+# lastname = "Zulu"
 
-password = firstname[::-1] + lastname[::-1]
+# password = firstname[::-1] + lastname[::-1]
 
-print("firstname: " + firstname, "lastname: " + lastname, "password : " + password ) 
+# print("firstname: " + firstname, "lastname: " + lastname, "password : " + password ) 
 
 
-long_string = '''
-    WOW
+# long_string = '''
+#     WOW
     
-    0 0
-    ___
+#     0 0
+#     ___
     
-'''
+# '''
 
-print(long_string * 5) 
+# print(long_string * 5) 
 
-#string concatenation
-print("hello" + str(type(int(str(5)))))
+# #string concatenation
+# print("hello" + str(type(int(str(5)))))
 
-#conver a string number into a number
-student_age = "5"
-print("student age: " + student_age)
+# #conver a string number into a number
+# student_age = "5"
+# print("student age: " + student_age)
 
+#formatted strings
+name = "john"
+age = 45
+
+print(f"Hie {name}. you are {age} years old")
+
+
+#string index 
+num = "1234567"
+
+#[start:stop:stepover]
+print(num[0:7:1]) #slicing
+
+# immutability
+# strings are immutable
+
+
+# built in functions  https://docs.python.org/3/library/functions.html
+print(len("hie"))   #length of the string
+# https://www.w3schools.com/python/python_ref_string.asp
