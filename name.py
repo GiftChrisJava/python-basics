@@ -45,3 +45,5 @@ long_string = '''
     ___
     
 '''
+
+print(long_string * 5)
