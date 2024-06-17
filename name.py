@@ -46,4 +46,12 @@ long_string = '''
     
 '''
 
-print(long_string * 5)
+print(long_string * 5) 
+
+#string concatenation
+print("hello" + str(type(int(str(5)))))
+
+#conver a string number into a number
+student_age = "5"
+print("student age: " + student_age)
+
