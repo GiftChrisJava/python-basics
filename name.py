@@ -27,3 +27,21 @@ print(a, b, c)
 some_value = 5
 some_value += 2 #augmented assignment
 print(some_value)
+
+
+# strings
+firstname = "Gift Chris"
+lastname = "Zulu"
+
+password = firstname[::-1] + lastname[::-1]
+
+print("firstname: " + firstname, "lastname: " + lastname, "password : " + password ) 
+
+
+long_string = '''
+    WOW
+    
+    0 0
+    ___
+    
+'''
