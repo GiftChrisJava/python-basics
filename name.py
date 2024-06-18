@@ -75,3 +75,9 @@ print(num[0:7:1]) #slicing
 # built in functions  https://docs.python.org/3/library/functions.html
 print(len("hie"))   #length of the string
 # https://www.w3schools.com/python/python_ref_string.asp
+
+#boolean
+name = "GCZ"
+is_cool = True
+
+print(is_cool)
