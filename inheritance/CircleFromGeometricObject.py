@@ -12,7 +12,7 @@ class Circle(GeometricObject):
     def setRadius(self, radius):
         self.__radius = radius
         
-    def getAreaOfCircle(self):
+    def getArea(self):
         return math.pi * math.pow(self.__radius, 2)
     
     def getDiameter(self):

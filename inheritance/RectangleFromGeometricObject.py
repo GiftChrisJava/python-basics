@@ -19,7 +19,7 @@ class Rectangle(GeometricObject):
     def setHeight(self, height):
         self.__height = height
         
-    def getAreaRectangle(self):
+    def getArea(self):
         return self.__width * self.__height
     
     def getPerimeter(self):
