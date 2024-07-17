@@ -1,8 +1,14 @@
 def main():
     pathToFile = "myfiles/"
-    filename = input("Enter a filename: ").strip()
-    infile = open((pathToFile + filename), "r")
     
+    while True:
+        try:
+            filename = input("Enter a filename: ").strip()
+            infile = open((pathToFile + filename), "r")
+            break
+        except IOError:
+            print("File " + filename + " does not exists. Try again")
+        
     counts = 26 * [0]
     
     for line in infile:
